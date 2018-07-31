@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InvoiceDocument pageWidth="7.5" pageHeight="10">
+  <LayoutElement name="InvoiceLabelElement" backcolor="0" positionX="568" positionY="0" width="512" height="88" zorder="0">
+    <border style="None" width="0" color="0" />
+    <font family="Microsoft Sans Serif" size="28" style="Bold" color="Black" />
+    <image layout="None" />
+    <text value="Invoice" halign="Center" valign="Center" />
+  </LayoutElement>
+  <LayoutElement name="InvoiceNumber" backcolor="0" positionX="880" positionY="88" width="200" height="40" zorder="0">
+    <border style="None" width="0" color="0" />
+    <font family="Microsoft Sans Serif" size="20" style="Regular" color="Black" />
+    <image layout="None" />
+    <text value="1" halign="Center" valign="Center" />
+  </LayoutElement>
+  <LayoutElement name="Logo" backcolor="0" positionX="0" positionY="0" width="560" height="240" zorder="0">
+    <border style="None" width="0" color="0" />
+    <font family="Microsoft Sans Serif" size="8" style="Regular" color="WindowText" />
+    <image path="" layout="Zoom" />
+    <text value="(logo image)" halign="Center" valign="Center" />
+  </LayoutElement>
+  <LayoutElement name="InvoiceNumberLabelElement" backcolor="0" positionX="568" positionY="88" width="304" height="40" zorder="0">
+    <border style="None" width="0" color="0" />
+    <font family="Microsoft Sans Serif" size="18" style="Regular" color="WindowText" />
+    <image layout="None" />
+    <text value="Invoice Number" halign="Far" valign="Center" />
+  </LayoutElement>
+  <LayoutElement name="InvoiceLines" backcolor="0" positionX="0" positionY="352" width="1080" height="911" zorder="0">
+    <border style="None" width="0" color="0" />
+    <font family="Microsoft Sans Serif" size="8" style="Regular" color="WindowText" />
+    <image layout="None" />
+    <text halign="Near" valign="Near" />
+  </LayoutElement>
+  <LayoutElement name="InvoiceDateLabelElement" backcolor="0" positionX="568" positionY="136" width="304" height="40" zorder="0">
+    <border style="None" width="0" color="0" />
+    <font family="Microsoft Sans Serif" size="18" style="Regular" color="WindowText" />
+    <image layout="None" />
+    <text value="Invoice Date" halign="Far" valign="Center" />
+  </LayoutElement>
+  <LayoutElement name="InvoiceDate" backcolor="0" positionX="880" positionY="136" width="200" height="40" zorder="0">
+    <border style="None" width="0" color="0" />
+    <font family="Microsoft Sans Serif" size="12" style="Regular" color="Black" />
+    <image layout="None" />
+    <text value="6/8/2018" halign="Center" valign="Center" />
+  </LayoutElement>
+  <LayoutElement name="SoldToLabelElement" backcolor="0" positionX="568" positionY="200" width="512" height="48" zorder="0">
+    <border style="None" width="0" color="0" />
+    <font family="Microsoft Sans Serif" size="18" style="Regular" color="WindowText" />
+    <image layout="None" />
+    <text value="Sold To:" halign="Center" valign="Center" />
+  </LayoutElement>
+  <LayoutElement name="Customer" backcolor="0" positionX="568" positionY="248" width="512" height="56" zorder="0">
+    <border style="Solid" width="1" color="Black" />
+    <font family="Microsoft Sans Serif" size="12" style="Regular" color="WindowText" />
+    <image layout="None" />
+    <text value="Customer Name" halign="Center" valign="Center" />
+  </LayoutElement>
+  <LayoutElement name="SubTotalLabelElement" backcolor="0" positionX="608" positionY="1256" width="192" height="40" zorder="0">
+    <border style="None" width="0" color="0" />
+    <font family="Microsoft Sans Serif" size="18" style="Regular" color="WindowText" />
+    <image layout="None" />
+    <text value="Sub Total:" halign="Near" valign="Center" />
+  </LayoutElement>
+  <LayoutElement name="TotalLabelElement" backcolor="0" positionX="688" positionY="1352" width="112" height="40" zorder="0">
+    <border style="None" width="0" color="0" />
+    <font family="Microsoft Sans Serif" size="18" style="Regular" color="WindowText" />
+    <image layout="None" />
+    <text value="Total:" halign="Near" valign="Center" />
+  </LayoutElement>
+  <LayoutElement name="SubTotal" backcolor="0" positionX="808" positionY="1256" width="168" height="40" zorder="0">
+    <border style="None" width="0" color="0" />
+    <font family="Microsoft Sans Serif" size="12" style="Regular" color="Black" />
+    <image layout="None" />
+    <text value="6/8/2018" halign="Center" valign="Center" />
+  </LayoutElement>
+  <LayoutElement name="Tax" backcolor="0" positionX="808" positionY="1304" width="168" height="40" zorder="0">
+    <border style="None" width="0" color="0" />
+    <font family="Microsoft Sans Serif" size="12" style="Regular" color="Black" />
+    <image layout="None" />
+    <text value="6/8/2018" halign="Center" valign="Center" />
+  </LayoutElement>
+  <LayoutElement name="Total" backcolor="0" positionX="809" positionY="1352" width="168" height="40" zorder="0">
+    <border style="None" width="0" color="0" />
+    <font family="Microsoft Sans Serif" size="12" style="Regular" color="Black" />
+    <image layout="None" />
+    <text value="6/8/2018" halign="Center" valign="Center" />
+  </LayoutElement>
+  <LayoutElement name="ThankYouLabelElement" backcolor="0" positionX="39" positionY="1400" width="1008" height="32" zorder="0">
+    <border style="None" width="0" color="0" />
+    <font family="Microsoft Sans Serif" size="12" style="Bold, Italic" color="WindowText" />
+    <image layout="None" />
+    <text value="Thank you for your business!" halign="Near" valign="Near" />
+  </LayoutElement>
+  <LayoutElement name="QuantityLabelElement" backcolor="0" positionX="0" positionY="320" width="112" height="32" zorder="0">
+    <border style="None" width="0" color="0" />
+    <font family="Microsoft Sans Serif" size="12" style="Bold" color="WindowText" />
+    <image layout="None" />
+    <text value="Quantity" halign="Near" valign="Center" />
+  </LayoutElement>
+  <LayoutElement name="DescriptionLabelElement" backcolor="0" positionX="120" positionY="320" width="440" height="32" zorder="0">
+    <border style="None" width="0" color="0" />
+    <font family="Microsoft Sans Serif" size="12" style="Bold" color="WindowText" />
+    <image layout="None" />
+    <text value="Description" halign="Near" valign="Center" />
+  </LayoutElement>
+  <LayoutElement name="TaxLabelElement" backcolor="0" positionX="1024" positionY="320" width="56" height="32" zorder="0">
+    <border style="None" width="0" color="0" />
+    <font family="Microsoft Sans Serif" size="12" style="Bold" color="WindowText" />
+    <image layout="None" />
+    <text value="Tax" halign="Near" valign="Center" />
+  </LayoutElement>
+  <LayoutElement name="LineTotalLabelElement" backcolor="0" positionX="896" positionY="320" width="128" height="32" zorder="0">
+    <border style="None" width="0" color="0" />
+    <font family="Microsoft Sans Serif" size="12" style="Bold" color="WindowText" />
+    <image layout="None" />
+    <text value="Line Total" halign="Near" valign="Center" />
+  </LayoutElement>
+  <LayoutElement name="UnitPriceLabelElement" backcolor="0" positionX="768" positionY="320" width="128" height="32" zorder="0">
+    <border style="None" width="0" color="0" />
+    <font family="Microsoft Sans Serif" size="12" style="Bold" color="WindowText" />
+    <image layout="None" />
+    <text value="Unit Price" halign="Near" valign="Center" />
+  </LayoutElement>
+  <LayoutElement name="CompanyAddress" backcolor="0" positionX="0" positionY="240" width="545" height="32" zorder="0">
+    <border style="None" width="0" color="0" />
+    <font family="Microsoft Sans Serif" size="12" style="Italic" color="WindowText" />
+    <image layout="None" />
+    <text value="(company address)" halign="Near" valign="Near" />
+  </LayoutElement>
+  <LayoutElement name="CompanyContact" backcolor="0" positionX="0" positionY="272" width="545" height="32" zorder="0">
+    <border style="None" width="0" color="0" />
+    <font family="Microsoft Sans Serif" size="12" style="Italic" color="WindowText" />
+    <image layout="None" />
+    <text value="(company phone and/or email)" halign="Near" valign="Near" />
+  </LayoutElement>
+</InvoiceDocument>

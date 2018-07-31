@@ -11,8 +11,9 @@
     <AssemblyName>FormsPrintScalingBlurryIssue</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -53,6 +54,7 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
@@ -75,11 +77,32 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DocumentCanvas.Designer.vb">
+      <DependentUpon>DocumentCanvas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DocumentCanvas.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DocumentLayout.vb" />
+    <Compile Include="DocumentLayoutDesigner.Designer.vb">
+      <DependentUpon>DocumentLayoutDesigner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DocumentLayoutDesigner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocumentLayoutElement.vb" />
+    <Compile Include="DocumentLayoutElementCollection.vb" />
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InvoicePrintDialog.Designer.vb">
+      <DependentUpon>InvoicePrintDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InvoicePrintDialog.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -99,6 +122,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="DocumentLayoutDesigner.resx">
+      <DependentUpon>DocumentLayoutDesigner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InvoicePrintDialog.resx">
+      <DependentUpon>InvoicePrintDialog.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -108,6 +140,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.manifest" />
+    <None Include="Documents\Invoice Header Default.xmldl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
